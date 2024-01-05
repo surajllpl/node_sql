@@ -1,6 +1,6 @@
-.App {
+/* .App {
   text-align: center;
-}
+} */
 
 .App-logo {
   height: 40vmin;
@@ -13,6 +13,17 @@
   }
 }
 
+.Nav-ul{
+  
+  padding: 10px;
+  margin: 5px;
+  background-color: skyblue;
+
+}
+.Nav-ul li{
+  display: inline-block;
+  padding: 10px;
+}
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
@@ -36,3 +47,136 @@
     transform: rotate(360deg);
   }
 }
+.login-head{
+  margin-left: 5%;
+  margin-bottom: 0;
+}
+
+
+
+.register{
+  margin-left: 40%;
+  
+  
+}
+.productlist{
+  margin-left: 10%;
+  
+}
+.search{
+  margin-left: 10%;
+  margin-bottom: 10px;
+  width: 500px;
+  height: 30px;
+  padding-left: 20px;
+  border: 1px solid skyblue;
+  
+}
+.product-list ul li{
+ 
+  display: inline-block;
+  border: 1px solid skyblue;
+  padding: 5px;
+  width: 150px;
+ }
+
+ .product-list ul{
+ 
+  margin: 0px;
+ }
+.product-list {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.invalid-input{
+  color: red;
+  margin-top: 20px;
+  margin-left: 20px;
+  display: block;
+}
+.inputBox{
+  text-align: center;
+  display: block;
+  margin: 20px;
+  padding: 7px;
+  width: 300;
+  border: 1px solid skyblue;
+}
+ 
+.app-Button{
+  margin-left: 40px;
+  padding: 7px;
+  width: 150px;
+  background-color: skyblue;
+  border: 1px solid;
+  cursor: pointer;
+
+}
+.Nav-right{
+  text-align: right;
+}
+
+.logo{
+  width: 45px;
+  float: left;
+  margin-left: 20px;
+  border-radius: 50%;
+  margin-top: 5px;
+
+}
+.prologo{
+  width: 100px;
+  height: 100px;
+  float: left;
+  margin-left: 5px;
+  border-radius: 80%;
+  margin-top: 5px;
+
+}
+.footer{
+  position:fixed;
+  bottom: 0;
+  text-align: center;
+  width: 100%;
+  background-color: skyblue;
+}
+.Nav-ul li{
+  display: inline-block;
+  padding: 10px;
+}
+.Nav-ul li a{
+
+      color: #fff;
+      padding: 5px;
+      text-decoration: none;
+}
+.Nav-ul{
+  
+  padding: 10px;
+  margin: 5px;
+  background-color: skyblue;
+
+}
+.Navo-ul{
+ 
+  list-style-type: none;
+  padding: 10px;
+  margin: 5px;
+  display: flex;
+  background-color: skyblue;
+
+}
+.Navo-ul li{
+  display: inline-block;
+  padding: 10px;
+}
+.table-ul{
+  list-style-type: none;
+}
+.table-ul li{
+ text-align: center;
+ align-items: center;
+ margin: 40px;
+}
+
